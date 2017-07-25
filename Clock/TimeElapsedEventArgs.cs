@@ -20,7 +20,7 @@ namespace Clock
         /// <summary>
         /// Initializes data for the time elapsing event
         /// </summary>
-        /// <param name="timeInterval">Elapsing time interval</param>
+        /// <param name="timeInterval">Elapsing time interval in seconds</param>
         public TimeElapsedEventArgs(int timeInterval)
         {
             CurrentTime = DateTime.Now;

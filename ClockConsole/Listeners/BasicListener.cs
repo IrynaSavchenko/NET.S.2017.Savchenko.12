@@ -13,7 +13,7 @@ namespace ClockConsole.Listeners
         /// <summary>
         /// Hooks up the event handling method to the listener event
         /// </summary>
-        /// <param name="clock"></param>
+        /// <param name="clock">Object that fires time elapsing events</param>
         public void Register(CountDownClock clock)
         {
             clock.TimeElapsed += TimeElapsedMsg;

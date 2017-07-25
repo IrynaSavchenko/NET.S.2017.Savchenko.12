@@ -4,7 +4,7 @@ using System.Timers;
 namespace Clock
 {
     /// <summary>
-    /// Class for testing time elapsing events
+    /// Class that raises time elapsing events
     /// </summary>
     public class CountDownClock
     {
@@ -21,7 +21,7 @@ namespace Clock
         /// <summary>
         /// Initializes timer
         /// </summary>
-        /// <param name="waitingTime">Time elapsing interval</param>
+        /// <param name="waitingTime">Time elapsing interval in seconds</param>
         public CountDownClock(int waitingTime)
         {
             timeInterval = waitingTime;

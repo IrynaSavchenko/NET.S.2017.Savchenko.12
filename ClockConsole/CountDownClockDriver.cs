@@ -5,8 +5,7 @@ using ClockConsole.Listeners;
 namespace ClockConsole
 {
     /// <summary>
-    /// The driver class that hooks up the event handling method of CountDownClock
-    /// to listener events using a delegate
+    /// The driver class that hooks up the event handling method of CountDownClock to listener events
     /// </summary>
     internal class CountDownClockDriver
     {
